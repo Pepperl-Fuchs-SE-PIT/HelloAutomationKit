@@ -1,7 +1,5 @@
-using HelloAutomationKit.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace HelloAutomationKit.Controllers
 {
@@ -42,12 +40,12 @@ namespace HelloAutomationKit.Controllers
         }
 
 
-        [HttpPost(Name = "SendTestFlagToMES")]
+        /*[HttpPost(Name = "SendTestFlagToMES")]
         public void SendTestFlagToMES(MesData mesData)
         {
             Trace.WriteLine(mesData.ToString());
             _logger.LogInformation("received MES Data {@MesData}", mesData);
 
-        }
+        }*/
     }
 }
